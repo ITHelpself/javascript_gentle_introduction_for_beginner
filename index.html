@@ -8,12 +8,18 @@
     <script>
         alert("hello world");
     </script>
-    <script src="alert.js"></script>
+    <script src="./js/alert.js"></script>
+    <script src="./js/number.js"></script>
 </head>
 <body>
     <div id="title"></div>
     <script>
-        document.getElementById("title").innerHTML = "hello world";
+        var pageTitle = "Hello world!"
+        document.getElementById("title").innerHTML = pageTitle; 
+    </script>
+    <div id="total"></div>
+    <script>
+        document.getElementById("total").innerHTML =total(3,4);
     </script>
 </body>
 </html>
